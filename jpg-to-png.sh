@@ -1,10 +1,10 @@
 #!/bin/bah
 #Convert jpg to png
-PATHIMAGES=~/imagens-livros
-for image in $(ls $PATHIMAGES/ | sed "s/.jpg//")
+cd ~/imagens-livros/
+for image in $(ls *.jpg | sed "s/.jpg//")
 do
-convert $PATHIMAGES/"$image.jpg" $PATHIMAGES/"$image.png"
+convert $image.jpg $image.png
 done
 
 mkdir -p ~/png
-mv  $PATHIMAGES/*.png ~/png/
+mv  *.png ~/png/
