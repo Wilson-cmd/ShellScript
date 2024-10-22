@@ -1,0 +1,9 @@
+380.204.182-15 Ninguem Nascimento Costa
+24 Outra Coisa
+204.380.168-67 Mais uma pessoa
+192.168.255.0 IP
+1
+2
+2
+380.204.068-63 Mais uma linha com CPF para ser verificado
+
